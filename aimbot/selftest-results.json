@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-31T16:47:05.180Z",
+  "url": "https://krunker-clone-creator.ai.studio/?autostart=1",
+  "patchState": "injected",
+  "results": [
+    {
+      "name": "bundle patched + hook exposed",
+      "ok": true,
+      "detail": {
+        "patch": "injected"
+      }
+    },
+    {
+      "name": "phase playing via autostart",
+      "ok": true,
+      "detail": "playing"
+    },
+    {
+      "name": "F.yaw reachable",
+      "ok": true,
+      "detail": "number"
+    },
+    {
+      "name": "bots spawned",
+      "ok": true,
+      "detail": {
+        "bots": 5
+      }
+    },
+    {
+      "name": "camera matrix reachable",
+      "ok": true
+    },
+    {
+      "name": "payload frames ticking",
+      "ok": true,
+      "detail": {
+        "frames": 15
+      }
+    },
+    {
+      "name": "payload error channel clean",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "frames advance over time",
+      "ok": true,
+      "detail": {
+        "f0": 15,
+        "f1": 39
+      }
+    },
+    {
+      "name": "ammo readable before aim",
+      "ok": true,
+      "detail": 26
+    },
+    {
+      "name": "aim set toward nearest bot",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "dist": 15.813868150032567
+      }
+    },
+    {
+      "name": "payload acquires target",
+      "ok": true,
+      "detail": {
+        "name": "StremZ_KR",
+        "err": 0,
+        "dist": 55
+      }
+    },
+    {
+      "name": "auto-fire spent ammo",
+      "ok": true,
+      "detail": {
+        "ammo0": 26,
+        "after": {
+          "ammo": 14,
+          "reloading": false,
+          "err": null,
+          "target": {
+            "name": "StremZ_KR",
+            "err": 0,
+            "dist": 46
+          }
+        }
+      }
+    },
+    {
+      "name": "payload error channel still clean",
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

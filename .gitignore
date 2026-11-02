@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
+build/
+*.o
+*.obj
+*.exe
+*.dll
+.vs/

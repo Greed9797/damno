@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-31T22:53:11.680Z",
+  "results": [
+    {
+      "name": "WASM memory captured",
+      "ok": true,
+      "detail": "ok 18MB wasm"
+    },
+    {
+      "name": "entered a match (HUD live)",
+      "ok": true,
+      "detail": "30"
+    },
+    {
+      "name": "position offset discovered",
+      "ok": false,
+      "detail": {
+        "pos": null,
+        "log": [
+          "walk diff empty",
+          "walk diff empty",
+          "walk diff empty",
+          "walk diff empty",
+          "feat aim=true"
+        ]
+      }
+    },
+    {
+      "name": "y-axis pinned",
+      "ok": false,
+      "detail": {
+        "pos": null,
+        "y": null
+      }
+    },
+    {
+      "name": "view matrix discovered",
+      "ok": false,
+      "detail": "waiting"
+    },
+    {
+      "name": "teleport moved position",
+      "ok": false,
+      "detail": "skipped — no pos"
+    },
+    {
+      "name": "fly raises Y",
+      "ok": false,
+      "detail": "skipped — no y"
+    },
+    {
+      "name": "enemy positions discovered",
+      "ok": false,
+      "detail": 0
+    },
+    {
+      "name": "HP offset discovered",
+      "ok": false,
+      "detail": "no damage within 45s — stand idle in a bot match and rerun"
+    },
+    {
+      "name": "god restores HP",
+      "ok": false,
+      "detail": "skipped — hp not found"
+    },
+    {
+      "name": "aim calibrated from real mouse",
+      "ok": false,
+      "detail": {
+        "calib": "null",
+        "lock": false,
+        "status": "no mouse yet"
+      }
+    }
+  ]
+}

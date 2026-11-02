@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01T00:41:26.295Z",
+  "url": "https://krunker.io/",
+  "stage": "injection-only",
+  "results": [
+    {
+      "name": "payload injected",
+      "ok": true
+    },
+    {
+      "name": "WASM memory captured",
+      "ok": true,
+      "detail": "ok 18MB wasm"
+    },
+    {
+      "name": "view-matrix extraction math",
+      "ok": true,
+      "detail": {
+        "ok1": true,
+        "ok2": true,
+        "f1": [
+          0,
+          0,
+          -1
+        ],
+        "f2": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "entered a match (HUD live)",
+      "ok": false,
+      "detail": "SKIPPED: no spawn in headless — complete Play once in headed mode"
+    }
+  ],
+  "skipped": [
+    "match discovery: complete krunker security check once in headed mode, then rerun"
+  ]
+}
