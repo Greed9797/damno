@@ -8,3 +8,5 @@ build/
 *.exe
 *.dll
 .vs/
+Oblivion/
+re-krunker-clone-creator/
