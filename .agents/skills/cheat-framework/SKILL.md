@@ -43,6 +43,7 @@ Regra de dependência: etapa N nunca começa antes da N-1 estar validada. Offset
 | `overlay-render` | Hook de Present interno, janela layered externa, DPI, multi-monitor, click-through |
 | `lua-ui` | createForm, memo/edit/button/combo/trackbar/timer, onclose, dofile |
 | `ai-pipeline` | Chat form, system prompt, extração de bloco, HTTP, execução pcall |
+| `fivem-external` | pipeline FiveM/GTA V: processo, entity walk, offsets de ped/vehicle, features externas |
 
 ### Roteamento por pedido
 
@@ -62,6 +63,7 @@ Regra de dependência: etapa N nunca começa antes da N-1 estar validada. Offset
 | "overlay" / "DirectXT" / "janela por cima" / "ImGui" | `overlay-render` |
 | "menu" / "form" / "UI do trainer" / "Lua no CE" | `lua-ui` |
 | "IA que gera o cheat" / "LLM no trainer" | `ai-pipeline` |
+| "FiveM" / "GTA" / "mod menu FiveM" | `fivem-external` |
 
 ### Convenção de offsets
 
